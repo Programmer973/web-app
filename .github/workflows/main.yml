@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -name: CHeckout code
-    uses: actions/checkout@v2
+    - name: CHeckout code
+      uses: actions/checkout@v2
 
     - name: Build and deploy
       run: bash build.sh
